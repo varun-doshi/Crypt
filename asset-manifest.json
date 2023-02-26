@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Crypt/static/css/main.d240a250.css",
-    "main.js": "/Crypt/static/js/main.2ee93632.js",
+    "main.js": "/Crypt/static/js/main.94416095.js",
     "static/media/contact.jpg": "/Crypt/static/media/contact.2453bbfff42218920c34.jpg",
     "static/media/Memory.png": "/Crypt/static/media/Memory.2723bb5fa874522336f1.png",
     "static/media/file.png": "/Crypt/static/media/file.f0b77156255f0457c0f3.png",
@@ -12,10 +12,10 @@
     "static/media/lab.png": "/Crypt/static/media/lab.4983f6867de348dfe24b.png",
     "index.html": "/Crypt/index.html",
     "main.d240a250.css.map": "/Crypt/static/css/main.d240a250.css.map",
-    "main.2ee93632.js.map": "/Crypt/static/js/main.2ee93632.js.map"
+    "main.94416095.js.map": "/Crypt/static/js/main.94416095.js.map"
   },
   "entrypoints": [
     "static/css/main.d240a250.css",
-    "static/js/main.2ee93632.js"
+    "static/js/main.94416095.js"
   ]
 }
