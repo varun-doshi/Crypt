@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Crypt/static/css/main.d240a250.css",
+    "main.js": "/Crypt/static/js/main.ccae0453.js",
+    "static/media/contact.jpg": "/Crypt/static/media/contact.2453bbfff42218920c34.jpg",
+    "static/media/Memory.png": "/Crypt/static/media/Memory.2723bb5fa874522336f1.png",
+    "static/media/file.png": "/Crypt/static/media/file.f0b77156255f0457c0f3.png",
+    "static/media/3.png": "/Crypt/static/media/3.89d08ed779140f9c3b13.png",
+    "static/media/nft.png": "/Crypt/static/media/nft.be874f4fa5a24dc588f1.png",
+    "static/media/2.png": "/Crypt/static/media/2.c8bbbd158dd2450a34c9.png",
+    "static/media/1.png": "/Crypt/static/media/1.6f15338f9e9cb0b0c89f.png",
+    "static/media/lab.png": "/Crypt/static/media/lab.4983f6867de348dfe24b.png",
+    "index.html": "/Crypt/index.html",
+    "main.d240a250.css.map": "/Crypt/static/css/main.d240a250.css.map",
+    "main.ccae0453.js.map": "/Crypt/static/js/main.ccae0453.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d240a250.css",
+    "static/js/main.ccae0453.js"
+  ]
+}
