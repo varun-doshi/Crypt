@@ -1,3 +1,24 @@
+
+#Welcome to CRYPT
+## Save your Medical History permanently to your "Soul"
+
+[View the project here.](https://varun-doshi.github.io/Crypt/)
+
+### Crypt uses the power of Blockchain and permanent storage to provide users an efficient and reliable way to store their data. 
+## How the app works:
+* Get your check-ups completed at your nearest Medical center.
+* Provide your Wallet Address once completed.
+* An Soulbound Token(SBT) will be minted to your address. This SBT will be your Medical Report holding all the results of your tests.
+* SBTs cannot be transferred and hence removes the threat of theft.
+* Your data is tored on the Filecoin servers using nft.storage service. Filecoin provides Provable Permanent Storage so we ensure you will never loose your data.
+* SBTs are minted on Polygon network which ensures cheap and fast transactions.
+* You can now view your Files from the app itself.
+
+### Technologies used: Solidity, Polygon, Filecoin, IPFS, React Js, TailwindCSS, Node Js
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
