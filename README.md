@@ -1,5 +1,5 @@
 
-#Welcome to CRYPT
+# Welcome to CRYPT
 ## Save your Medical History permanently to your "Soul"
 
 [View the project here.](https://varun-doshi.github.io/Crypt/)
