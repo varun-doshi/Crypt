@@ -37,18 +37,18 @@ function App() {
   return (
     <>
       <div className="p-4 flex justify-between items-center">
-        <div className="font-extrabold font-poppins text-5xl text-[#0081C9] ">
-          CRYPT
+        <div className="font-extrabold font-poppins text-5xl text-blue-600 hover:pointer">
+          <Link to="/">CRYPT</Link>
         </div>
         <div className="flex justify-between ">
           <p className="px-4 rounded-md py-4 text-2xl font-poppins hover:bg-[#EFF5F5]">
-            <Link to="/Crypt/admin">Admin</Link>
+            <Link to="/admin">Admin</Link>
           </p>
           <p className="px-4 rounded-md py-4 text-2xl font-poppins hover:bg-[#EFF5F5]">
-            <Link to="/Crypt/">Home</Link>
+            <Link to="/">Home</Link>
           </p>
           <p className="px-4 rounded-md py-4 text-2xl font-poppins hover:bg-[#EFF5F5]">
-            <Link to="/Crypt/nfts">My NFTs</Link>
+            <Link to="/nfts">My NFTs</Link>
           </p>
           {user.length > 0 ? (
             <button className="px-8 text-2xl font-poppins bg-[#EB6440] rounded-lg text-white">
@@ -66,9 +66,9 @@ function App() {
       </div>
 
       <Routes>
-        <Route path="Crypt/" element={<Home />} />
-        <Route path="/Crypt/nfts" element={<NFTs user={user} />} />
-        <Route path="/Crypt/admin" element={<Admin user={user} />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/nfts" element={<NFTs user={user} />} />
+        <Route path="/admin" element={<Admin user={user} />} />
       </Routes>
     </>
   );
