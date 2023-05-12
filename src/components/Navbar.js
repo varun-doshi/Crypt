@@ -15,29 +15,29 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="p-4 flex justify-between items-center">
-      <div className="font-extrabold font-poppins text-5xl text-blue-600 hover:pointer">
+    <div className="md:p-4 p-1 flex gap-4 justify-between items-center overflow-hidden">
+      <div className="font-extrabold font-poppins text-xl md:text-5xl text-blue-600 hover:pointer">
         <Link to="/">CRYPT</Link>
       </div>
       <div className="flex justify-between ">
-        <p className="px-4 rounded-md py-4 text-2xl font-poppins hover:bg-[#EFF5F5]">
+        <p className="md:px-4 rounded-md py-4 md:text-2xl font-poppins hover:bg-[#EFF5F5]">
           <Link to="/">Home</Link>
         </p>
-        <p className="px-4 rounded-md py-4 text-2xl font-poppins hover:bg-[#EFF5F5]">
+        <p className="md:px-4 rounded-md py-4 md:text-2xl font-poppins hover:bg-[#EFF5F5]">
           <Link to="/admin">Admin</Link>
         </p>
-        <p className="px-4 rounded-md py-4 text-2xl font-poppins hover:bg-[#EFF5F5]">
+        <p className="md:px-4 rounded-md py-4 md:text-2xl font-poppins hover:bg-[#EFF5F5]">
           <Link to="/nfts">My NFTs</Link>
         </p>
         {user.length > 0 ? (
-          <button className="px-8 text-2xl font-poppins bg-[#EB6440] rounded-lg text-white">
+          <button className="md:px-8 md:text-2xl font-poppins bg-[#EB6440] rounded-lg text-white">
             {user.substring(0, 4) + "..." + user.substring(38)}
           </button>
         ) : (
           <>
             <button
               onClick={handleConnect}
-              className="px-8 text-2xl font-poppins bg-[#EB6440] z-10"
+              className="md:px-8 px-2 md:text-2xl font-poppins bg-[#EB6440] z-10"
             >
               Connect
             </button>

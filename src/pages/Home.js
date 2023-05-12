@@ -10,11 +10,11 @@ import contact from "../assets/contact.jpg";
 const Home = () => {
   return (
     <div className="text-center h-[80vh]">
-      <div className="mx-auto flex flex-col justify-center max-w-7xl px-4 pb-16  text-center sm:px-6 lg:px-8  h-[80vh]">
-        <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      <div className="mx-auto flex flex-col justify-center max-w-7xl px-4 pb-16  text-center sm:px-6 lg:px-8  h-[100vh]">
+        <h1 className="mx-auto max-w-4xl font-display mt-40 md:mt-0 text-4xl font-normal tracking-tight text-slate-900 sm:text-7xl">
           Welcome to{" "}
           {/* <span className="relative whitespace-nowrap text-blue-600"> */}
-          <span className="relative">
+          <span className="relative font-bold">
             CRYPT
             <svg
               aria-hidden="true"
@@ -28,14 +28,13 @@ const Home = () => {
           {/* </span>{" "} */}
         </h1>
         <p className="mx-auto mt-6 max-w-xl tracking-tight text-slate-700 text-2xl">
-          Your one stop solution for storing your medical history on the safe
-          place.
+          Your one stop solution for storing your medical history securely.
         </p>
-        <div className="mt-36 lg:mt-44">
-          <p className="font-display text-[1.5rem] text-slate-900">
-            Some content here
+        <div className="mt-20 lg:mt-44">
+          <p className="font-display text-6xl text-slate-900 font-semibold ">
+            Features
           </p>
-          <ul className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0">
+          <ul className="mt-8 flex items-center justify-center gap-x-8 md:flex-col md:gap-x-0 md:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0">
             {[
               [
                 { name: "Safe", source: "images/security.png" },
@@ -46,13 +45,16 @@ const Home = () => {
               <li key={groupIndex}>
                 <ul className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0">
                   {group.map((item) => (
-                    <li key={item.name} className="flex flex-col">
+                    <li
+                      key={item.name}
+                      className="flex flex-col mx-24 justify-center items-center"
+                    >
                       <img
                         src={item.source}
                         alt={item.name}
                         className="h-24 w-24"
                       />
-                      <p>{item.name}</p>
+                      <p className="font-medium text-3xl">{item.name}</p>
                     </li>
                   ))}
                 </ul>
