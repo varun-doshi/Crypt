@@ -2,7 +2,7 @@
 # Welcome to CRYPT
 ## Save your Medical History permanently to your "Soul"
 
-[View the project here.](https://varun-doshi.github.io/Crypt/)
+[View the project here.](https://crypt-datathon.vercel.app/)
 
 ### Crypt uses the power of Blockchain and permanent storage to provide users an efficient and reliable way to store their data. 
 ## How the app works:
