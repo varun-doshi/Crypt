@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import * as ethers from "ethers";
 import { useState } from "react";
 import { NFTStorage, File } from "nft.storage";
@@ -43,7 +43,7 @@ const Admin = () => {
     setRecipient(e.target.value);
   };
   const isOwner = () => {
-    if (user == "0x83f5ebac3c2806ef448946c19a371076b6a6d0ca") return true;
+    if (user === "0x83f5ebac3c2806ef448946c19a371076b6a6d0ca") return true;
     else return false;
   };
 

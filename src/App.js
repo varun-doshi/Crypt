@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import NFTs from "./pages/NFTs";
 import Admin from "./pages/Admin";

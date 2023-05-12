@@ -21,10 +21,10 @@ const Navbar = () => {
       </div>
       <div className="flex justify-between ">
         <p className="px-4 rounded-md py-4 text-2xl font-poppins hover:bg-[#EFF5F5]">
-          <Link to="/admin">Admin</Link>
+          <Link to="/">Home</Link>
         </p>
         <p className="px-4 rounded-md py-4 text-2xl font-poppins hover:bg-[#EFF5F5]">
-          <Link to="/">Home</Link>
+          <Link to="/admin">Admin</Link>
         </p>
         <p className="px-4 rounded-md py-4 text-2xl font-poppins hover:bg-[#EFF5F5]">
           <Link to="/nfts">My NFTs</Link>
@@ -34,12 +34,17 @@ const Navbar = () => {
             {user.substring(0, 4) + "..." + user.substring(38)}
           </button>
         ) : (
-          <button
-            onClick={handleConnect}
-            className="px-8 text-2xl font-poppins bg-[#EB6440]"
-          >
-            Connect
-          </button>
+          <>
+            <button
+              onClick={handleConnect}
+              className="px-8 text-2xl font-poppins bg-[#EB6440] z-10"
+            >
+              Connect
+            </button>
+            {!user && (
+              <span class="animate-ping h-4 w-4 rounded-full bg-blue-600 opacity-85 z-20 -left-4"></span>
+            )}
+          </>
         )}
       </div>
     </div>

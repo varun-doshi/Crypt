@@ -36,12 +36,11 @@ const NFTs = () => {
 
   return (
     <div className="text-center">
-      <h1 className="text-5xl mt-12 mb-20 font-poppins">Your NFTs</h1>
+      <h1 className="text-5xl mt-12 mb-20 font-poppins">{nfts.length === 0 ? "No NFTs to display":"Your NFTs"}</h1>
       <div className="nfts px-24 flex flex-wrap gap-12">
         {nfts?.map((NFT) => {
           return <NftCard nft={NFT} key={nfts.indexOf(NFT)} />;
         })}
-        {nfts.length == 0 && <h2>No Crypt NFTs</h2>}
       </div>
     </div>
   );
