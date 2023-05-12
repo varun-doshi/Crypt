@@ -1,5 +1,4 @@
 import React from "react";
-import memory from "../assets/Memory.png";
 import lab from "../assets/lab.png";
 import nft from "../assets/nft.png";
 import file from "../assets/file.png";
@@ -144,8 +143,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      
     </div>
   );
 };

@@ -1,11 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import * as ethers from "ethers";
 import { useState } from "react";
 import { NFTStorage, File } from "nft.storage";
 import abi from "../constants/abi.json";
 import camera from "../assets/camera.png";
+import ContractContext from "../context/ContractContext";
 
-const Admin = ({ user }) => {
+const Admin = () => {
+  const { user } = useContext(ContractContext);
   const reader = new FileReader();
   const NFT_STORAGE_API_KEY = process.env.REACT_APP_NFTsTORAGE_KEY;
 

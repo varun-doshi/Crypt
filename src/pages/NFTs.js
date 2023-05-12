@@ -1,8 +1,10 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import NftCard from "../components/NFT";
+import ContractContext from "../context/ContractContext";
 
-const NFTs = ({ user }) => {
+const NFTs = () => {
+  const { user } = useContext(ContractContext);
   const [nfts, setNfts] = useState([]);
   // const [apiKey, setApiKey] = useState("");
   const apiKey = process.env.REACT_APP_ALCHEMY_API_KEY;
